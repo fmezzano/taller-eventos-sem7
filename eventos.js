@@ -6,3 +6,7 @@ accionDiv.addEventListener("click", clickDiv);
 function clickDiv(){
     alert("Hola! Soy el div");
     }
+    
+bttn.addEventListener("click", (event) =>{
+    event.stopPropagation();
+    })
